@@ -6,9 +6,11 @@
 //  Copyright © 2016 Zaki Shaheen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+@import CoreLocation;
+@import CocoaLumberjack;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CLLocationManagerDelegate, DDLogFormatter>
 
 
 @end
